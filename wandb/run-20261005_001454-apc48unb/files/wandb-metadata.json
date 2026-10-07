@@ -1,0 +1,55 @@
+{
+    "os": "Windows-10-10.0.19045-SP0",
+    "python": "3.10.22",
+    "heartbeatAt": "2026-10-04T16:14:57.162222",
+    "startedAt": "2026-10-04T16:14:54.217970",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--de_type",
+        "med_ct",
+        "--batch_size",
+        "2"
+    ],
+    "state": "running",
+    "program": "D:\\Reproduce\\AdaIR\\train.py",
+    "codePath": "train.py",
+    "git": {
+        "remote": "https://github.com/c-yn/AdaIR.git",
+        "commit": "ccb8b98e49614e07badd0641e5163fa7635c2f02"
+    },
+    "email": "jx2010@hw.ac.uk",
+    "root": "D:/Reproduce/AdaIR",
+    "host": "DESKTOP-5IESP5E",
+    "username": "dell",
+    "executable": "D:\\Anaconda\\envs\\adair\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2304.0,
+        "min": 0.0,
+        "max": 2304.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2304.0,
+            "min": 0.0,
+            "max": 2304.0
+        }
+    ],
+    "disk": {
+        "total": 488.28026962280273,
+        "used": 428.0185089111328
+    },
+    "gpu": "NVIDIA GeForce RTX 3060 Laptop GPU",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3060 Laptop GPU",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 31.744911193847656
+    }
+}
